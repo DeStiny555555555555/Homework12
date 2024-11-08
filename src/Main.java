@@ -28,7 +28,7 @@ public class Main {
         Author c2 = c;
         System.out.println(c.equals(c2));
 
-        Book c3 = new Book("Перевал",ivanBunin,1892);
+        Book c3 = new Book("Перевал", ivanBunin, 1892);
         Book c4 = c3;
         System.out.println(c3.equals(c4));
     }
